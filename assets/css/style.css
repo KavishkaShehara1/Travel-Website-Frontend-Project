@@ -127,6 +127,14 @@ body {
 }
 
 
+
+/*-------- Container --------*/
+
+.container {
+  padding-inline: 16px;
+}
+
+
 /* -------- preloader ---------- */
 
 
@@ -186,4 +194,26 @@ body {
   100% {
     width: 80%;
   }
+}
+
+/*-------- Navbar --------*/
+
+.navbar,
+.overlay {
+ display: none;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding-block: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
 }
